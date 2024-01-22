@@ -1,0 +1,28 @@
+.div-button-add-comment {
+  padding: 10px 4% 10px 4% ;
+}
+
+.container-add-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gainsboro;
+}
+
+.div-add-comment {
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; 
+  -webkit-box-orient: vertical;
+  align-items: center; 
+  margin: 8px 4px 4px 2px;
+}
+
+.text-add-comment {
+  Border: none; 
+  outline: none;
+  width: 95%;
+  font-size: 2em;
+  margin-left: 10px;
+}

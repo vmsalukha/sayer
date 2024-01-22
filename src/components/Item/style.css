@@ -1,0 +1,84 @@
+.app-div-button-del {
+
+    width: 100%;
+    height: 130px;
+    background-color: #d4145a;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+}
+
+.round-button-item {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #313464;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.round-button-add {
+    position: relative;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #d4145a;
+    color: #f5a8f0;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.4);
+    font-size: 90px;
+    line-height: 90px;
+    padding: 0;
+}
+
+.round-button-add::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 50%;
+}
+
+.round-button-add span {
+    position: relative;
+    z-index: 1;
+}
+
+
+.item-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.item-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    height: 130px;
+}
+
+.item-info {
+    flex: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    align-items: center; 
+    margin-left: 30px;
+    margin-bottom: 14px;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.item-action {
+    width: 30%;
+}
+
+.item-action-comment {
+    padding: 30px 2% 30px 30px ;
+}

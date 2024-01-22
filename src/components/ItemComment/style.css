@@ -1,0 +1,61 @@
+.app-div-button-comment {
+    align-self: center;
+}
+
+.round-button-item {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #313464;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.round-button-add::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 50%;
+}
+
+.round-button-add span {
+    position: relative;
+    z-index: 1;
+}
+
+
+.item-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.comment-element {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #ccc;
+}
+
+.comment-info {
+    flex: 1;
+    align-items: center; 
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 1em 1em 2em 1em;
+}
+
+.comment-action {
+    display: flex;
+    padding: 30px 10px 20px 20px;
+}
+
+.div-comment-button {
+    width: 90px;
+    height: 90px;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+}

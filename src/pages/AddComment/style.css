@@ -1,0 +1,19 @@
+.div-header-create-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+
+  }
+
+  .my-text-truncate {
+    flex: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.footer-comment {
+  flex: 0 0 auto;
+}

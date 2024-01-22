@@ -1,0 +1,57 @@
+.my-bg-primary-subtle {
+  background-color: #cfe2ff;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.text-button-header-create-item {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.div-header-create-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.container-create-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.input-container-create-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.text-create-item {
+  Border: none; 
+  outline: none;
+  border-bottom: 2.5px solid #ccc;
+  width: 100%;
+  font-size: 1.6em;
+  padding-bottom: 10px;
+}
+
+.div-create-item {
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  align-items: center; 
+  margin-left: 20px;
+  margin-bottom: -40px;
+}
+
+.div-button-create-item {
+  padding: 30px 2% 30px 10px ;
+}

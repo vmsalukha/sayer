@@ -1,0 +1,30 @@
+
+.text-header-title {
+    font-size: 4em;
+    font-weight: 650;
+}
+
+.text-header-create {
+    font-size: 2em;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.text-header {
+    font-size: 1.8em;
+}
+
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    background-color: #0e1d3c;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    height: 160px;
+    color: white;
+    text-align: left;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+    
+  }

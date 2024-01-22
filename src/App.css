@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.my-bg-primary-subtle {
+  background-color: #cfe2ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 33.33%;
+  margin: 0 auto; 
+  background-color: white;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.div-create-item textarea {
+  vertical-align: bottom;
+}
